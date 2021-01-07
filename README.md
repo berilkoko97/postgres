@@ -74,16 +74,16 @@ start_time, hour, day, week, month, year, weekday
 ```
 ### Project Files:
 
-```data```: Contains two sub-folders song_data and log_data. Under each sub-folders, the sample JSON files are present. 
-```create_tables.py```: drops and creates tables
-```etl.ipynb``` :contains detailed instructions on the ETL process for each of the tables. 
-```etl.py```: reads and processes files from song_data and log_data and loads them into tables 
-```sql_queries.py``` :contains all your sql queries
+- ```data```: Contains two sub-folders song_data and log_data. Under each sub-folders, the sample JSON files are present. 
+- ```create_tables.py```: drops and creates tables
+- ```etl.ipynb``` :contains detailed instructions on the ETL process for each of the tables. 
+- ```etl.py```: reads and processes files from song_data and log_data and loads them into tables 
+- ```sql_queries.py``` :contains all your sql queries
 
 ## Environment
-Python 3.6 or above
-PostgresSQL 9.5 or above
-psycopg2 
+- Python 3.6 or above
+- PostgresSQL 9.5 or above
+- psycopg2 
 
 ## How to run
 You will not be able to ```run test.ipynb```, ```etl.ipynb```, or ```etl.py``` until you have run ```create_tables.py``` at least once to create the sparkifydb database, which these other files connect to.
