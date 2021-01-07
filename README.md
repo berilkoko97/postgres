@@ -54,7 +54,7 @@ star schema has been used to optimize queries on song play analysis
 1.songplays - records in log data associated with song plays
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
-###Dimension Tables
+###Dimension Tables.
 2.users - users in the app
 user_id, first_name, last_name, gender, level
 
